@@ -5,7 +5,7 @@ function ButtonComponent() {
     const [count,setCount] = useState(false);
     
     let click=()=>{
-        return ()=>setCount(!count)
+        return ()=>setCount(!count);
     }
   return (
     <div>
